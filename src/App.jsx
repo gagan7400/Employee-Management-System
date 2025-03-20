@@ -18,7 +18,7 @@ const App = () => {
     }
   }, [])
 
-
+ console.log("object")
   const handleLogin = (email, password) => {
     if (email == 'admin@me.com' && password == '123') {
       setUser('admin')
